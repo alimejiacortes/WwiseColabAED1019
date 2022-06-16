@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8F00E84B-AB10-420B-A60E-60D9AEC27142}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="NOise&amp;silence" ID="{8F00E84B-AB10-420B-A60E-60D9AEC27142}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="CHORAL 3 AP 3_06 1" ID="{62D467AF-425F-4494-9766-ECD680F7985C}" ShortID="551685640">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{3B89574F-31A1-4101-927D-376C5E1E205A}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="2"/>
+											<Property Name="Min" Type="Real64" Value="-9"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2456BC8-2658-4FAA-87F3-58622DC479DB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8CD1D1B3-DBD8-4452-BC3C-B7BDCC751D42}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="CHORAL 3 AP 3_06 1" ID="{C3C90D01-38BD-45C9-B205-B38C274CC1CF}">
+							<Language>SFX</Language>
+							<AudioFile>CHORAL 3 AP 3_06 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="795699601"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="CHORAL 3 AP 3_06 1" ID="{C3C90D01-38BD-45C9-B205-B38C274CC1CF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{693A86E4-933C-4272-918B-1EA767BEE166}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="DIEGO" ID="{693A86E4-933C-4272-918B-1EA767BEE166}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="RANDOM" ID="{DCB748AB-5F08-4189-8D41-402CAA3D6ACA}" ShortID="474210119">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2456BC8-2658-4FAA-87F3-58622DC479DB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8CD1D1B3-DBD8-4452-BC3C-B7BDCC751D42}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sound SFX2" ID="{75BD26A0-22BD-499C-8626-FB6668BD7E7A}" ShortID="639075882">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2456BC8-2658-4FAA-87F3-58622DC479DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8CD1D1B3-DBD8-4452-BC3C-B7BDCC751D42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crowds, Loop Group, Army FightIng In Battle 01 SND67456 copy" ID="{4681F72F-CB61-444A-B5DD-6E77A3E51903}">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2456BC8-2658-4FAA-87F3-58622DC479DB}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>Crowds, Loop Group, Army FightIng In Battle 01 SND67456 copy.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="235793811"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Crowds, Loop Group, Army FightIng In Battle 01 SND67456 copy" ID="{4681F72F-CB61-444A-B5DD-6E77A3E51903}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sound SFX" ID="{783AC37B-5972-4B9F-8AE9-1ACEDBAC9394}" ShortID="447795399">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2456BC8-2658-4FAA-87F3-58622DC479DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8CD1D1B3-DBD8-4452-BC3C-B7BDCC751D42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Air, Burst, Air Pressure, Fast Release, Pop, Blast SND6616" ID="{D157A853-9E74-4F8D-BE64-9252D430628C}">
+									<Language>SFX</Language>
+									<AudioFile>Air, Burst, Air Pressure, Fast Release, Pop, Blast SND6616.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="602529104"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Air, Burst, Air Pressure, Fast Release, Pop, Blast SND6616" ID="{D157A853-9E74-4F8D-BE64-9252D430628C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
